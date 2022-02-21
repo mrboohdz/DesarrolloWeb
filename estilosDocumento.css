@@ -1,12 +1,19 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
+body{
+	width:80%;
+	margin: auto;
+	color: #414141;
 }
-
 .datos{
 	text-align: right;
 }
 
+.cal{
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
 h1{
+	font-family: 'Source Sans Pro';
+  	font-style: bold;
+  	src: url(https://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A.woff2) format('woff2');
 	text-align: center;
 	color:#2596BE;
 }
@@ -15,10 +22,67 @@ p{
 	text-align: justify;
 }
 
+
 table{
-	width: 100%
+	width: 100%;
 }
 
+td{
+	padding: 1%;
+}
+
+.b{
+	border: 1px solid #000000;
+}
 a{
-	color: mediumpurple;
+	color: #d472c0;
+}
+
+.azul{
+	color: #0070c0;
+}
+
+.verde{
+	color: #00b050;
+}
+
+.rojo{
+	color: #ff0000;
+}
+
+.amarillo{
+	color: #ffc000;
+}
+
+.dorado{
+	color: #806000;
+}
+
+.rosa{
+	color: #e818b2;
+}
+
+.morado{
+	color:#a83ac6;
+}
+.cielo{
+	color:#00b0f0;
+}
+
+.nova{
+	font-family: 'Arial Nova';
+    font-style: normal;
+    src: local('Arial Nova'), url('https://fonts.cdnfonts.com/s/14414/ArialNova.woff') format('woff');
+}
+
+h2{
+	font-family: 'Berlin Sans FB';
+    font-style: normal;
+    src: local('Berlin Sans FB'), url('https://fonts.cdnfonts.com/s/14755/BRLNSR.woff') format('woff');
+}
+
+.mer{
+	font-family: 'Merriweather';
+    font-style: normal;
+    src: local('Merriweather'), url('https://fonts.cdnfonts.com/s/12231/Merriweather-Bold.woff') format('woff');
 }
