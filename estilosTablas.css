@@ -1,0 +1,40 @@
+table, td, th {
+	border: 2px solid;
+	padding: 3px;
+}
+
+table {
+	text-align: center;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.rosa{
+	background-color: #fce4d6;
+}
+
+.dorado{
+	background-color: #bf8f00;
+}
+
+.amarillo{
+	background-color: #ffd966;
+}
+
+.textorojo{
+	color: red;
+}
+
+.rotacion{
+	transform: rotate(-45deg);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.gris-fuerte{
+	background-color: #aeaaaa;
+}
+
+.gris-suave{
+	background-color: #e7e6e6;
+}
